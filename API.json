@@ -1,0 +1,128 @@
+{
+  "PATIENT": [
+    {
+      "id": "1",
+      "nam": "mayur",
+      "admit": {
+        "releasedate": "07/05/2022"
+      },
+      "doctorname": "lokesh",
+      "observation": "new pbs 7879 98798",
+      "bill": 0,
+      "visitdate": "6/30/2022",
+      "medicine": [
+        {
+          "medname": "mayur",
+          "timming": "NIGHT",
+          "nodays": "1",
+          "price": "1"
+        },
+        {
+          "medname": "lokesh",
+          "timming": "DAY/NIGHT",
+          "nodays": "6",
+          "price": "32"
+        },
+        {
+          "medname": "lokesht2",
+          "timming": "DAY/NIGHT",
+          "nodays": "2",
+          "price": "3"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nam": "yash",
+      "admit": {
+        "releasedate": "07/13/2022"
+      },
+      "doctorname": "lokesh",
+      "observation": "person suffers from acidity, due to an increased concentration of acid in the stomach, it is suggested that a base or antacids be administered to the person to neutralize the acid in the stomach.",
+      "bill": 0,
+      "visitdate": "7/3/2022",
+      "medicine": [
+        {
+          "medname": "paracetemol",
+          "timming": "DAY/NIGHT",
+          "nodays": "4",
+          "price": "2"
+        },
+        {
+          "medname": "disperene",
+          "timming": "DAY",
+          "nodays": "3",
+          "price": "3"
+        }
+      ]
+    }
+  ],
+  "DOCTOR": [
+    {
+      "id": "1",
+      "nam": "lokesh",
+      "usertype": "DOCTOR",
+      "password": "123",
+      "isactive": "Deactive"
+    },
+    {
+      "id": "2",
+      "nam": "lokesh",
+      "usertype": "DOCTOR",
+      "password": "123",
+      "isactive": "Active"
+    },
+    {
+      "nam": "saourabh",
+      "password": "123",
+      "isactive": "Active",
+      "id": "3"
+    }
+  ],
+  "RECEPTIONIST": [
+    {
+      "id": "1",
+      "nam": "megha",
+      "usertype": "RECEPTIONIST",
+      "password": "123",
+      "isactive": true
+    },
+    {
+      "id": "15",
+      "nam": "lokesh",
+      "usertype": "RECEPTIONIST",
+      "password": "132",
+      "isactive": true
+    },
+    {
+      "id": "2",
+      "nam": "loki",
+      "usertype": "RECEPTIONIST",
+      "password": "123",
+      "isactive": "Active"
+    },
+    {
+      "id": "3",
+      "nam": "meem",
+      "usertype": "RECEPTIONIST",
+      "password": "1",
+      "isactive": "Deactive"
+    },
+    {
+      "id": "4",
+      "nam": "missu",
+      "usertype": "RECEPTIONIST",
+      "password": "123",
+      "isactive": "Active"
+    }
+  ],
+  "NURSE": [
+    {
+      "id": "1",
+      "nam": "tanu",
+      "usertype": "NURSE",
+      "password": "123",
+      "isactive": "Active"
+    }
+  ]
+}
